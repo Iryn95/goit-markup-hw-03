@@ -21,6 +21,25 @@ address{
     font-style: normal;
 }
 
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+}
+
+ul{
+    padding-left: 0;
+    margin: 0;
+}
+
+button{
+    cursor: pointer;
+}
+
 .list {
     list-style: none;  
  }
@@ -29,7 +48,19 @@ address{
     text-decoration: none;
 }
 
+.container{
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    outline: 2px solid brown;
+}
+
 /* Logo */
+.page-header{
+    padding-top: 24px;
+    padding-bottom: 25px;
+}
 
 .logo {
     color:var(--logo-color); 
@@ -83,10 +114,19 @@ address{
 /* Hero */
 
 .hero{
+    padding-top: 200px;
+    padding-bottom: 280px;
+    /* padding: 200px 0; */
     background-color:var(--bg-color);
 }
 
 .hero-title {
+    width: 696px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
     color:var(--primary-white-color);
 
     font-size: 44px;
@@ -114,6 +154,10 @@ address{
 }
 
 /* Principles */
+.principles{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .visually-hidden{
     position:absolute;
@@ -129,6 +173,7 @@ address{
 }
 
 .principles .title {
+    margin: 10px;
     color:var( --title-text-color) ;
 
     font-weight: 700;
@@ -168,6 +213,9 @@ address{
 /* Button */
 
 .button {
+    margin: 0 auto;
+    display: block;
+
     background-color:var(--accent-color);
     color:var(--second-fon-color);
     
@@ -178,6 +226,7 @@ address{
     line-height: 1.88;
     letter-spacing: 0.06em;
     cursor: pointer;
+    text-align: center;
 }
 
 
