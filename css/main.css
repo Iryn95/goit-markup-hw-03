@@ -245,7 +245,8 @@ img{
 .button {
     margin: 0 auto;
     display: block;
-
+    padding: 10px 32px;
+    
     background-color:var(--accent-color);
     color:var(--second-fon-color);
     
@@ -261,8 +262,20 @@ img{
 
 
 /* Стили для Портофолио" */
+.filter{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.site-nav{
+    
+    margin: 34px;
+}
 
 .style-filter {
+    padding: 6px 22px;
+    display: inline-block;
+
     background-color:var(--second-fon-color);
     color:var( --title-text-color) ;
 
@@ -283,7 +296,9 @@ img{
 
 /* Examples */
 
+
 .examples .title {
+    margin-bottom: 4px;
     color:var(--title-text-color) ;
 
     font-weight: 700;
@@ -291,6 +306,7 @@ img{
     line-height: 2.0;
     letter-spacing: 0.06em;
 }
+
 
 .examples .text { 
     color:var(--primary-text-color) ;
@@ -302,7 +318,15 @@ img{
 }
 
 .examples-link{
+   
     color:var(--title-text-color) ;
+}
+
+.gallery-desc {
+    border: 1px solid #EEEEEE;
+    box-sizing: border-box;
+    border-top: none;
+    padding: 20px 24px;
 }
 
 /* Footer */
