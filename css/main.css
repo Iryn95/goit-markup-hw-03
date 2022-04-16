@@ -40,6 +40,10 @@ button{
     cursor: pointer;
 }
 
+img{
+    display: block;
+}
+
 .list {
     list-style: none;  
  }
@@ -55,6 +59,8 @@ button{
     margin: 0 auto;
     outline: 2px solid brown;
 }
+
+
 
 /* Logo */
 .page-header{
