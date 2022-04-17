@@ -67,13 +67,14 @@ img{
 .container.page-header{
     display: flex;
     align-items: center;
+    /* border-bottom: 1px solid #ECECEC; */
 }
 
 /* Logo */
 .page-header{
-    padding-top: 24px;
-    padding-bottom: 25px;
-    border-bottom: 1px solid #ECECEC;
+    /* padding-top: 24px;
+    padding-bottom: 25px; */
+    border-bottom: 1px solid #ECECEC; 
 }
 
 .logo {
@@ -133,10 +134,10 @@ img{
 .contact-list{
     display: flex;
     align-items: center;
-    margin: auto;
+    margin-left: auto;
 }
 
-.contact-list .item:not(last-child){
+.contact-list .item:not(:last-child){
     margin-right: 50px;
 }
 
@@ -190,7 +191,11 @@ img{
 /* Principles */
 .principles{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+}
+
+.principles-item:not(:last-child){
+    margin-right: 30px;
 }
 
 .principles-item{
@@ -237,6 +242,9 @@ img{
 .section{
     padding: 94px 0;
 }
+.section-inter{
+    padding: 94px 0;
+}
 
 .section-title{
     margin-bottom: 50px;
@@ -274,6 +282,7 @@ img{
 
 .section-group{
     padding-bottom: 94px;
+    /* padding-top: 94px; */
 
     background-color:var(--second-fon-color);
 }
@@ -349,6 +358,10 @@ img{
     display: flex;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+.filter-item:not(:last-child){
+    margin-right: 8px;
 }
 
 .style-filter {
