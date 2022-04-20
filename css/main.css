@@ -19,6 +19,8 @@ body{
 
 address{
     font-style: normal;
+
+    margin-top: 20px;
 }
 
 p,
@@ -243,7 +245,7 @@ img{
     padding: 94px 0;
 }
 .section-inter{
-    padding: 94px 0;
+    padding-bottom: 94px;
 }
 
 .section-title{
@@ -269,7 +271,7 @@ img{
 /* Team */
 .section-team{
     margin-bottom: 50px;
-    padding-top: 94px;
+    /* padding-top: 94px; */
     
     color:var( --title-text-color) ;
 
@@ -281,7 +283,7 @@ img{
 }
 
 .section-group{
-    padding-bottom: 94px;
+    padding: 94px 0;
     /* padding-top: 94px; */
 
     background-color:var(--second-fon-color);
@@ -448,7 +450,6 @@ img{
 
 /* Footer */
 .address{
-    
     padding-top: 60px;
     padding-bottom: 60px;
    
@@ -456,22 +457,22 @@ img{
     font-style: normal;
 }
 
-.address-link{
-    margin-top: 20px;
-}
+/* .address-link{ */
+    /* margin-top: 20px; */
+/* } */
 
-.address .logo { 
-    margin-bottom: 20px;
-    width: 145px;
+/* .address .logo {  */
+    /* margin-bottom: 20px; */
+    /* width: 145px; */
     
-    color:var(--primary-white-color);
-} 
+    /* color:var(--primary-white-color); */
+/* }  */
 
-.address-link .logo{
+.address .logo{
     color:var(--primary-white-color) ;
 }
 
-.address-link .logo.accent  {
+.address .logo .accent  {
     color:var(--accent-color)
 }
 
